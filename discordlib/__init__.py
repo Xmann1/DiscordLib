@@ -1,7 +1,7 @@
 import asyncio
 import discord
 
-from modules import SubmoduleHandler, BotModule
+from .modules import SubmoduleHandler, BotModule
 
 
 def command(func):
